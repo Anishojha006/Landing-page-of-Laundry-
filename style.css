@@ -12,7 +12,7 @@ body,html{
     width: 100%;
     height: 85%;
     font-size: 20px; background:  linear-gradient(to right top, rgb(165, 194, 201), rgb(247, 227, 208)), 
-    url('shirt2-removebg-preview.png');
+    url('https://img-new.cgtrader.com/items/3556220/5a41e2dd83/shirt-plain-buttoned-up-3d-model-low-poly-obj-fbx-ma-stl-dae-ztl.jpg');
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-repeat: no-repeat;  /* prevent tiling */
   background-size: contain;         /* make image cover full area */
@@ -83,12 +83,13 @@ border: 2px solid  rgb(30, 52, 56);;
 }
 #invert{
      transform: rotate(180deg);
-   bottom: 66%;
-   left: 42%;
+   bottom: 67%;
+   left: 43%;
 }
 #orignal{
-    bottom: 65%;
-    left: 28%;
+    bottom: 66%;
+    left: 27%;
+
 }
 #para2{
     position: absolute;
@@ -98,7 +99,7 @@ border: 2px solid  rgb(30, 52, 56);;
 #invert2{
  transform: rotate(180deg);
  bottom: 50%;
- left: 70%;
+ left:73%;
 }
 #orignal2{
     bottom: 49%;
@@ -106,17 +107,18 @@ border: 2px solid  rgb(30, 52, 56);;
 }
 #rating{
     padding-left: 50px;
-    height: 150px;
-    width: 500px;
+    height: 100px;
+    width: 480px;
     position: absolute;
-    top: 30%;
+    top: 29%;
 }
 #text{  
     position: absolute;
+    padding-top: 15px;
     bottom: 20%;
     height: 300px;
-    width: 900px;
-    font-size: 100px;
+    width: 550px;
+    font-size:80px;
     font-weight: 100;
     padding-left: 50px;
     color: rgb(250, 255, 255);
@@ -127,7 +129,7 @@ border: 2px solid  rgb(30, 52, 56);;
     background-color: rgb(222, 218, 215);
     position: absolute;
     border-radius: 10px;
-    right: 10%;
+    right: 3%;
      bottom: 20%;
 }
 #btmleft #btleftimg{
@@ -162,7 +164,7 @@ padding-left: 50px;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight: 100;
 font-size: 50px;
-margin-left: 50px;
+margin-left: 50px; 
 }
 #btm #btnimages img{
     height: 60px;
@@ -171,22 +173,20 @@ margin-left: 50px;
 #ReserveService{
     background-color: rgb(255, 255, 255);
     position: absolute;
+    display: flex;
     height: 10px;
     width: 200px;
     height: 60px;
     right: 5%;
     bottom: 5%;
     border-radius: 10px;
-   
+    justify-content: space-between;
 }
 #ReserveService h3{
-
-    width: 100%;
-    position: absolute;
-    top: -8px;
-    left: 11px;
+    margin-top: 10px;
+    padding-left: 10px;
+   padding-top: 10px;
 }
 #ReserveService #icon{
-    padding-top: 5%;
-    height:50px;
+   padding-bottom: 10px;
 }
